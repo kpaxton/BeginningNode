@@ -1,0 +1,22 @@
+{
+  "name": "beginning_node",
+  "version": "1.0.0",
+  "description": "trying out node for the first time",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.14.1",
+    "mongodb": "^2.2.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
